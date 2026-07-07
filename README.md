@@ -1,55 +1,39 @@
-# 🤖 Word23 Counter Bot
+# Word23 Counter Bot 🤖
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/your-template)
+A Telegram bot that counts words, characters, sentences, and paragraphs in your messages.
 
-A powerful Telegram bot for advanced text analysis and word counting.
+## Features ✨
+- 📝 Word counting
+- 🔤 Character counting (with/without spaces)
+- 📖 Sentence counting
+- 📄 Paragraph counting
+- 📊 User statistics
+- 🎯 Fast and accurate
 
-## ✨ Features
+## Commands 🎮
+- `/start` - Welcome message
+- `/help` - Show all commands
+- `/stats` - View your statistics
+- `/about` - About this bot
+- `/contact` - Contact the developer
 
-- 📊 **Word Count**: Count words, characters, sentences, paragraphs
-- 🔍 **Keyword Analysis**: Find most used words and density
-- 📈 **Readability Score**: Check text readability
-- 🌍 **Multi-language**: Works with any language
-- 🎯 **Interactive Buttons**: Easy navigation
-- ⚡ **Auto-Analysis**: Just send text and get results
+## Deployment 🚀
+This bot is deployed on Railway with GitHub integration.
 
-## 🚀 Commands
+## Technologies Used 🛠️
+- Python 3.10+
+- python-telegram-bot
+- Railway
+- GitHub
 
-| Command | Description |
-|---------|-------------|
-| `/start` | Welcome message with menu |
-| `/help` | Show all commands |
-| `/about` | Bot information |
-| `/count [text]` | Quick word count |
-| `/stats` | Detailed statistics |
-| `/readability [text]` | Check readability |
+## Setup Locally 💻
+1. Clone the repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Create `.env` file with `TELEGRAM_TOKEN=your_token`
+4. Run: `python bot.py`
 
-## 🛠️ Tech Stack
+## License 📄
+MIT License
 
-- Python 3.11
-- python-telegram-bot 20.7
-- Railway (Deployment)
-- GitHub (Version Control)
-
-## 📦 Installation
-
-### Local Development
-
-```bash
-# Clone repository
-git clone https://github.com/yourusername/word23counter-bot.git
-cd word23counter-bot
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Set environment variables
-cp .env.example .env
-# Edit .env with your BOT_TOKEN
-
-# Run bot
-python bot.py
+## Contact 📧
+[@YourTelegramUsername](https://t.me/YourTelegramUsername)
